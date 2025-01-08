@@ -13,4 +13,3 @@ except ZeroDivisionError:(
 finally:
     print(f"Результат: {result}")
     print("Программа завершена")
-    exit()
