@@ -1,2 +1,2 @@
-# PyLerning
+# PyLearning
 репозиторий по курсу "Основы Python" школы Я-Юниор
