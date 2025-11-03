@@ -16,7 +16,8 @@ def even_numbers(n):
     for i in range(0, n+1, 2):
         print(i)
         yield i
-        
+
+even_numbers(10)
 
 #4 автотест для функции max_number(a, b)
 def test_max_number():
