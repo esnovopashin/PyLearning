@@ -1,29 +1,39 @@
 def num_to_word(num):
     if num == 1:
-        print("One")
+        word = "One"
+        return word
     elif num == 2:
-        print("Two")
+        word = "Two"
+        return word
     elif num == 3:
-        print("Three")
+        word = "Three"
+        return word
     elif num == 4:
-        print("Four")
+        word = "Four"
+        return word
     elif num == 5:
-        print("Five")
+        word = "Five"
+        return word
     else:
         print("Число должно быть от 1 до 5")
-        num = number_input()
-        num_to_word(num)
+
 
 def number_input():
     while True:
         try:
             num = int(input("Введите число от 1 до 5: ").strip())
-            if 1 <= num <= 5:
+            if num in range(1, 6):
                 return num
             else:
                 print("Ошибка! Введите число в диапазоне от 1 до 5")
         except ValueError:
-            print("Ошибка! Введите только цифры")
+            print("Ошибка! Введите только целые числа")
 
-num = number_input()
-num_to_word(num)
+
+def translate():
+    num = number_input()
+    print("Соответствующее слово: ", num_to_word(num))
+
+
+if __name__ == "__main__":
+    translate()
