@@ -1,11 +1,3 @@
-pswrd = "juni0r"
-user_pswrd = " "
-
-print("=" * 50)
-print("Введите пароль. Допускаются только прописные латинские буквы и цифры \nЕсли пароль не подобран, можно попробовать снова \nУдачи!")
-print(f"Количество букв {len(pswrd)}")
-print("=" * 50)
-
 def user_input():
     user_pswrd = str(
         input("Введите пароль: ").lower()
@@ -33,6 +25,14 @@ def check_pswrd():
         except ValueError:
             print("Что-то пошло не так")
    
+pswrd = "juni0r"
+user_pswrd = " "
+
+print("=" * 50)
+print("Введите пароль. Допускаются только прописные латинские буквы и цифры \nЕсли пароль не подобран, можно попробовать снова \nУдачи!")
+print(f"Количество букв {len(pswrd)}")
+print("=" * 50)
+
 
 if __name__ == "__main__":
     check_pswrd()
