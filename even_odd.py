@@ -30,6 +30,7 @@ for num in numbers:
 
 print(f"Сумма четных чисел: ", summ_even_num)
 
+
 # Задача 2
 print("=" * 25, "Задание 2 ", "=" * 25)
 
