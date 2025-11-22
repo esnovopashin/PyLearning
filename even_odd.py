@@ -39,8 +39,8 @@ print("=" * 25, "Задание 2 ", "=" * 25)
 #         odd_num.append(num)
 # print(f"Нечетные числа: ", odd_num)
 
-#sq_odd_numbers = [num for num in range(1, 11, 2)]
-print(f"Квадраты нечетных чисел: ", [num for num in range(1, 11, 2)])
+odd_num = [num for num in range(1, 11, 2)]
+print(f"Квадраты нечетных чисел: ", [num ** 2 for num in odd_num])
 
 if __name__ == "__main__":
     print("=" * 25, "Задание 3 ", "=" * 25)
